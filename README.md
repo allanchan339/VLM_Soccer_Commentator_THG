@@ -9,8 +9,11 @@ The source video is extracted from [here](https://www.google.com/url?sa=t&source
 ### Pure Lip Sync Demo
 https://github.com/user-attachments/assets/c24946a7-0f81-490c-840a-9f5c3c9300aa
 
-### Commentary Results
+### Commentary Results -- EdgeTTS
 https://github.com/user-attachments/assets/41373536-0d6b-4d08-be6a-fc39612c4176
+
+### Commentary Results -- SoVITS
+https://github.com/user-attachments/assets/8112062a-c9a8-4de0-b188-719088bb8bf8
 
 ### Full Demo Recording
 https://github.com/user-attachments/assets/c7c591a9-0d32-4a28-9794-f3880621b8c5
