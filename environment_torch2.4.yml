@@ -58,6 +58,13 @@ dependencies:
   - mmcv==2.2.0
   - mmdet==3.3.0
 
+  # GPT-SoVITS
+  # - numba
+  # - sentencepiece
+  - peft==0.10.0
+  # - chardet
+  # - 
+
   - pip:
     
     # pip prefered package 
@@ -85,4 +92,17 @@ dependencies:
 
     # MuseTalk require pypi version 
     - huggingface_hub[cli]
+
+    # # GPT-SoVITS required pypi only 
+    - fast_langdetect>=0.3.1
+    - split-lang
+    - x_transformers
+    - cn2an
+    - pypinyin
+    - jieba_fast
+    - ToJyutping
+    - wordsegment
+    - g2p_en
+    - faster-whisper --no-deps
+    - pyopenjtalk>=0.4.1
 

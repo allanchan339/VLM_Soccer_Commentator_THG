@@ -33,18 +33,18 @@ https://github.com/user-attachments/assets/c7c591a9-0d32-4a28-9794-f3880621b8c5
 ## Git 
 1. Clone the repository:
 ```bash
-git clone https://github.com/XX.git --depth 1  
-cd XX
+git clone https://github.com/allanchan339/VLM_Soccer_Commentator_THG --depth 1  
+cd VLM_Soccer_Commentator_THG
 git submodule update --init --recursive
 ```
 
 ## Conda
-1. Install Miniconda or Anaconda (environment.yml is for pytorch 2.1.2, environment_torch2.4.yml is for pytorch 2.4.1).
-`conda env create -f environemt.yml`
+1. Install Miniconda or Anaconda, then run following commands
+`conda env create -f environment_torch2.4.yml`
 
 2. Activate the environment:
 ```bash
-conda activate SoCommVoice
+conda activate SoCommVoice2.4
 ```
 
 ## Additional Dependencies
@@ -109,5 +109,13 @@ pip install ttsfrd-0.4.2-cp310-cp310-linux_x86_64.whl
 ### Download the pre-trained models and install MuseTalk:
 ```bash
 # Download the MuseTalk model
-sh ./download_weights.sh
+sh ./download_THG_weight.sh
+
+# Download the GPT-SoVITS models:
+bash ./download_TTS_weight.sh
+```
+
+# Run the demo
+```bash
+python web_ui_all.py
 ```
